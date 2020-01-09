@@ -1,2 +1,10 @@
 - name: Azure Login
   uses: Azure/login@v1
+  with:
+    # Paste output of `az ad sp create-for-rbac` as value of secret variable: AZURE_CREDENTIALS
+    creds: 
+  "appId": "79b4ee9e-5086-43da-ad26-6bd559131b01",
+  "displayName": "azure-cli-2020-01-09-21-11-07",
+  "name": "http://azure-cli-2020-01-09-21-11-07",
+  "password": "846148fe-49c5-46c3-ba4b-782a5d006a90",
+  "tenant": "467750fa-44ec-49d4-ba43-5ae49d501676"
